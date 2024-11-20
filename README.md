@@ -25,10 +25,10 @@ import requests
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
+## Load environment variables from .env file
 load_dotenv()
 
-# Retrieve the Slack API token and channel ID from environment variables
+## Retrieve the Slack API token and channel ID from environment variables
 slack_token = os.getenv("SLACK_API_TOKEN")
 channel_id = os.getenv("SLACK_CHANNEL_ID")
 
